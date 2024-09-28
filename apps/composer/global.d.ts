@@ -1,9 +1,11 @@
+import type {
+	PlatformaticApp,
+	PlatformaticComposerConfig,
+} from "@platformatic/composer";
+import { FastifyInstance } from "fastify";
 
-import { FastifyInstance } from 'fastify'
-import { PlatformaticApp, PlatformaticComposerConfig } from '@platformatic/composer'
-
-declare module 'fastify' {
-  interface FastifyInstance {
-    platformatic: PlatformaticApp<PlatformaticComposerConfig>
-  }
+declare module "fastify" {
+	interface FastifyInstance {
+		platformatic: PlatformaticApp<PlatformaticComposerConfig>;
+	}
 }

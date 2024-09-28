@@ -1,19 +1,16 @@
 {
-  "name": "wattpm-express-demo",
-  "private": true,
-  "scripts": {
-    "dev": "wattpm dev",
-    "build": "wattpm build",
-    "start": "wattpm start"
-  },
-  "dependencies": {
-    "wattpm": "^2.2.1"
-  },
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
-  "devDependencies": {
-    "@biomejs/biome": "1.9.2"
-  }
+	"name": "wattpm-express-demo",
+	"private": true,
+	"scripts": {
+		"dev": "wattpm dev",
+		"build": "wattpm build",
+		"start": "wattpm start"
+	},
+	"dependencies": {
+		"wattpm": "^2.2.1"
+	},
+	"workspaces": ["apps/*", "packages/*"],
+	"devDependencies": {
+		"@biomejs/biome": "1.9.2"
+	}
 }
