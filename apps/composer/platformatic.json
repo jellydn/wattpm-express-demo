@@ -14,5 +14,8 @@
 		],
 		"refreshTimeout": 1000
 	},
-	"watch": true
+	"watch": true,
+	"server": {
+		"hostname": "0.0.0.0"
+	}
 }
