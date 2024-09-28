@@ -9,6 +9,12 @@
 				}
 			},
 			{
+				"id": "express",
+				"proxy": {
+					"prefix": "/express"
+				}
+			},
+			{
 				"id": "web"
 			}
 		],

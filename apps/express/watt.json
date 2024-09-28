@@ -1,0 +1,11 @@
+{
+	"$schema": "https://schemas.platformatic.dev/@platformatic/node/2.0.0.json",
+	"server": {
+		"hostname": "0.0.0.0"
+	},
+	"application": {
+		"commands": {
+			"development": "npm run dev"
+		}
+	}
+}

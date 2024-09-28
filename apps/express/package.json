@@ -1,0 +1,36 @@
+{
+	"name": "express-v5",
+	"version": "1.0.0",
+	"license": "MIT",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsup",
+		"check": "biome check --apply .",
+		"dev": "tsx watch app/index.ts",
+		"start": "tsx app/index.ts",
+		"typecheck": "tsc --noEmit"
+	},
+	"dependencies": {
+		"@platformatic/node": "2.2.1",
+		"body-parser": "1.20.3",
+		"cors": "2.8.5",
+		"express": "5.0.0",
+		"helmet": "7.1.0",
+		"jsend": "1.1.0",
+		"pino": "9.4.0"
+	},
+	"devDependencies": {
+		"@types/cors": "2.8.17",
+		"@types/express": "5.0.0",
+		"@types/jsend": "1.0.32",
+		"tsup": "8.3.0",
+		"tsx": "4.19.1",
+		"typescript": "5.6.2"
+	},
+	"tsup": {
+		"entry": ["app/index.ts"],
+		"splitting": false,
+		"sourcemap": true,
+		"clean": true
+	}
+}
