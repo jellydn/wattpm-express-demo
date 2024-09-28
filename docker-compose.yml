@@ -1,0 +1,22 @@
+services:
+  reverse-proxy:
+    image: traefik:v3.1@sha256:aa0b5b366e198602e5aa507ec94dfee05c12dd0044796763f4606f6b7936c9a9
+    command:
+      - "--api.insecure=true"
+      - "--providers.docker"
+    ports:
+      - "80:80" # The HTTP port
+      - "8081:8080" # The Web UI (enabled by --api.insecure=true)
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock # So that Traefik can listen to the Docker events
+
+  watt-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    labels:
+      - "traefik.http.routers.watt-app.rule=Host(`watt-app.traefik.me`)"
+      - "traefik.http.services.watt-app.loadbalancer.server.port=3042"
+    environment:
+      NODE_ENV: production
+    command: npm run start
