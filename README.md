@@ -9,6 +9,10 @@
 TBD
 ```
 
+## Resources
+
+- [Watt Quick Start](https://docs.platformatic.dev/docs/getting-started/quick-start-watt)
+
 ## Show your support
 
 Give a ⭐️ if this project helped you!
