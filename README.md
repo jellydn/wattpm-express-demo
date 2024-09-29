@@ -5,6 +5,7 @@
 Welcome to the wattpm-express-demo repository! This guide will help you use wattpm with Express v5 and a Next.js app.
 
 ## Overview
+
 This repository demonstrates how to integrate wattpm in an Express v5 and Next.js application. It includes a quick start guide for getting up and running efficiently.
 
 ## Getting Started
@@ -18,6 +19,7 @@ pnpm install
 ```
 
 ### Build
+
 To build the application, execute:
 
 ```sh
@@ -25,6 +27,7 @@ pnpm run build
 ```
 
 ### Start
+
 To start the application, use:
 
 ```sh
@@ -46,7 +49,8 @@ pre-commit install
 
 ## Deployment
 
-To deploy the application to Fly.io, 
+To deploy the application to Fly.io,
+
 ```sh
 flyctl launch
 ```
