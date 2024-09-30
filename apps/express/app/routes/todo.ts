@@ -1,9 +1,4 @@
-import {
-	type NextFunction,
-	type Request,
-	type Response,
-	Router,
-} from "express";
+import { type Request, type Response, Router } from "express";
 
 import { Todo } from "../../models/todo";
 
@@ -12,13 +7,15 @@ interface TodoBody {
 	text: string;
 }
 
-interface TodoParams {
-	id: string;
-}
-
 const router = Router();
 
-let todos: Todo[] = [];
+const todoItems: Todo[] = [
+	{
+		id: "1",
+		text: "Setup demo with Watt and Express v5",
+		completed: false,
+	},
+];
 
 router.post(
 	"/",
@@ -32,11 +29,10 @@ router.post(
 			TodoBody
 		>,
 		res: Response,
-		_next: NextFunction,
 	) => {
 		const { text } = req.body;
 		const newTodo = new Todo(Math.random().toString(), text);
-		todos.push(newTodo);
+		todoItems.push(newTodo);
 
 		res
 			.status(201)
@@ -45,73 +41,7 @@ router.post(
 );
 
 router.get("/", (_req, res, _next) => {
-	res.jsend.success({ todos: todos });
+	res.jsend.success({ items: todoItems });
 });
-
-router.patch("/:id", (req: Request<TodoParams>, res: Response, _next) => {
-	const todoId = req.params.id;
-	const updatedText = (req.body as { text: string }).text;
-
-	const todoIndex = todos.findIndex((todo) => todo.id === todoId);
-
-	if (todoIndex < 0) {
-		res.jsend.error({ message: "Could not find todo!", code: 500 });
-		return;
-	}
-
-	todos[todoIndex] = new Todo(
-		todos[todoIndex].id,
-		updatedText,
-		todos[todoIndex].completed,
-	);
-	res.jsend.success({ message: "Updated!", updatedTodo: todos[todoIndex] });
-});
-
-router.put("/:id", (req: Request<TodoParams>, res: Response, _next) => {
-	const todoId = req.params.id;
-	const updatedText = (req.body as { text: string }).text;
-	const todoIndex = todos.findIndex((todo) => todo.id === todoId);
-
-	if (todoIndex < 0) {
-		res.jsend.error({ message: "Could not find todo!", code: 500 });
-		return;
-	}
-
-	todos[todoIndex] = new Todo(
-		todos[todoIndex].id,
-		updatedText,
-		todos[todoIndex].completed,
-	);
-	res.jsend.success({ message: "Updated!", updatedTodo: todos[todoIndex] });
-});
-
-router.delete("/:id", (req: Request<TodoParams>, res: Response, _next) => {
-	const todoId = req.params.id;
-	todos = todos.filter((todo) => todo.id !== todoId);
-	res.jsend.success({ message: "Todo deleted!" });
-});
-
-router.post(
-	"/:id/complete",
-	(req: Request<TodoParams>, res: Response, _next) => {
-		const todoId = req.params.id;
-		const todoIndex = todos.findIndex((todo) => todo.id === todoId);
-
-		if (todoIndex < 0) {
-			res.jsend.error({ message: "Could not find todo!", code: 500 });
-			return;
-		}
-
-		todos[todoIndex] = new Todo(
-			todos[todoIndex].id,
-			todos[todoIndex].text,
-			true,
-		);
-		res.jsend.success({
-			message: "Completed the todo!",
-			completedTodo: todos[todoIndex],
-		});
-	},
-);
 
 export default router;
