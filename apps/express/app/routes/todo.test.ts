@@ -24,4 +24,12 @@ describe("Todo Endpoints", () => {
 		expect(Array.isArray(response.body.data.items)).toBe(true);
 		expect(response.body.data.items.length).toBeGreaterThan(0);
 	});
+
+	it("POST / should return an error if text is missing", async () => {
+		const response = await request(app).post("/api/todo").send({});
+
+		expect(response.status).toBe(400);
+		expect(response.body.status).toBe("error");
+		expect(response.body.message).toBe("Text is required");
+	});
 });

@@ -39,6 +39,12 @@ router.post(
 		res: Response,
 	) => {
 		const { text } = req.body;
+
+		if (!text) {
+			res.status(400).jsend.error("Text is required");
+			return;
+		}
+
 		const newTodo = new Todo(generateUUID(), text);
 		todoItems.push(newTodo);
 
