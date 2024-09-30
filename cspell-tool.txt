@@ -1,4 +1,5 @@
 autoload
+biomejs
 borp
 jsend
 pino
