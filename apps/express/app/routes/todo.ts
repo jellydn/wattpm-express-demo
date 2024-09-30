@@ -9,9 +9,17 @@ interface TodoBody {
 
 const router = Router();
 
+const generateUUID = () => {
+	return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, (c) => {
+		const r = (Math.random() * 16) | 0;
+		const v = c === "x" ? r : (r & 0x3) | 0x8;
+		return v.toString(16);
+	});
+};
+
 const todoItems: Todo[] = [
 	{
-		id: "1",
+		id: generateUUID(),
 		text: "Setup demo with Watt and Express v5",
 		completed: false,
 	},
@@ -31,7 +39,7 @@ router.post(
 		res: Response,
 	) => {
 		const { text } = req.body;
-		const newTodo = new Todo(Math.random().toString(), text);
+		const newTodo = new Todo(generateUUID(), text);
 		todoItems.push(newTodo);
 
 		res
