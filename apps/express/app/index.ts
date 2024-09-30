@@ -20,17 +20,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(jsend.middleware); // more detail on https://github.com/omniti-labs/jsend
 app.use(errorHandler);
-const options = {
-	dotfiles: "ignore",
-	etag: false,
-	extensions: ["htm", "html"],
-	index: false,
-	maxAge: "1d",
-	redirect: false,
-	setHeaders(res: express.Response) {
-		res.set("x-static-timestamp", Date.now().toString());
-	},
-};
 
 app.get("/api", (_req, res: express.Response) => {
 	res.setHeader("Content-Type", "application/json");
