@@ -1,4 +1,4 @@
-FROM node:20.17.0-alpine as builder
+FROM node:20.18.0-alpine as builder
 
 # Set up working directory
 RUN mkdir /app
@@ -18,7 +18,7 @@ ENV NODE_ENV=production
 RUN pnpm run build
 
 # Set up the production image
-FROM node:20.17.0-alpine
+FROM node:20.18.0-alpine
 WORKDIR /app
 
 # Copy build output from builder
