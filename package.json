@@ -7,7 +7,7 @@
 		"start": "wattpm start"
 	},
 	"dependencies": {
-		"wattpm": "2.11.0"
+		"wattpm": "2.12.0"
 	},
 	"workspaces": ["apps/*", "packages/*"],
 	"devDependencies": {
