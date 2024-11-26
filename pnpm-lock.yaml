@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       wattpm:
-        specifier: 2.17.0
-        version: 2.17.0
+        specifier: 2.18.0
+        version: 2.18.0
     devDependencies:
       '@biomejs/biome':
         specifier: 1.9.4
@@ -19,8 +19,8 @@ importers:
   apps/composer:
     dependencies:
       '@platformatic/composer':
-        specifier: 2.17.0
-        version: 2.17.0
+        specifier: 2.18.0
+        version: 2.18.0
     devDependencies:
       borp:
         specifier: 0.19.0
@@ -35,8 +35,8 @@ importers:
   apps/express:
     dependencies:
       '@platformatic/node':
-        specifier: 2.17.0
-        version: 2.17.0
+        specifier: 2.18.0
+        version: 2.18.0
       body-parser:
         specifier: 1.20.3
         version: 1.20.3
@@ -69,11 +69,11 @@ importers:
         specifier: 6.0.2
         version: 6.0.2
       '@vitest/coverage-v8':
-        specifier: 2.1.5
-        version: 2.1.5(vitest@2.1.5)
+        specifier: 2.1.6
+        version: 2.1.6(vitest@2.1.6)
       '@vitest/ui':
-        specifier: 2.1.5
-        version: 2.1.5(vitest@2.1.5)
+        specifier: 2.1.6
+        version: 2.1.6(vitest@2.1.6)
       supertest:
         specifier: 7.0.0
         version: 7.0.0
@@ -87,20 +87,20 @@ importers:
         specifier: 5.7.2
         version: 5.7.2
       vitest:
-        specifier: 2.1.5
-        version: 2.1.5(@types/node@22.10.0)(@vitest/ui@2.1.5)
+        specifier: 2.1.6
+        version: 2.1.6(@types/node@22.10.0)(@vitest/ui@2.1.6)
 
   apps/http-node:
     dependencies:
       '@platformatic/node':
-        specifier: 2.17.0
-        version: 2.17.0
+        specifier: 2.18.0
+        version: 2.18.0
 
   apps/web:
     dependencies:
       '@platformatic/next':
-        specifier: 2.17.0
-        version: 2.17.0
+        specifier: 2.18.0
+        version: 2.18.0
       next:
         specifier: 14.2.18
         version: 14.2.18(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -906,6 +906,12 @@ packages:
     peerDependencies:
       '@opentelemetry/api': ^1.3.0
 
+  '@opentelemetry/instrumentation-pg@0.48.0':
+    resolution: {integrity: sha512-z0eG0A6SUXM/zSBisFVYrcp6aYbO8z1+R7cM7hxURBm8ccS98kVvZ+9UpLFd61YpSeof4bGhFsA8wqgNgqh4Vg==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      '@opentelemetry/api': ^1.3.0
+
   '@opentelemetry/instrumentation-undici@0.8.0':
     resolution: {integrity: sha512-XUab3nrvk2CPjOTlIPJNUv3v0KIpK6flxF67Re6PoxVaxtN4Zh5hfUTowndn7rXMGwz2feO5LpDWjqfMQw8veQ==}
     engines: {node: '>=14'}
@@ -992,25 +998,31 @@ packages:
     resolution: {integrity: sha512-lp4qAiMTD4sNWW4DbKLBkfiMZ4jbAboJIGOQr5DvciMRI494OapieI9qiODpOt0XBr1LjIDy1xAGAnVs5supTA==}
     engines: {node: '>=14'}
 
+  '@opentelemetry/sql-common@0.40.1':
+    resolution: {integrity: sha512-nSDlnHSqzC3pXn/wZEZVLuAuJ1MYMXPBwtv2qAbCa3847SaHItdE7SzUq/Jtb0KZmh1zfAbNi3AAMjztTT4Ugg==}
+    engines: {node: '>=14'}
+    peerDependencies:
+      '@opentelemetry/api': ^1.1.0
+
   '@pkgjs/parseargs@0.11.0':
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
 
-  '@platformatic/basic@2.17.0':
-    resolution: {integrity: sha512-7CLtepH1B9VAxwW5SpZVfnCYiBG/zlzs/wh5PGJ7Qqzb4QtwwVLyBAwvQJ76+AEHiswSVGd5Z7JshzzkIqD7ZA==}
+  '@platformatic/basic@2.18.0':
+    resolution: {integrity: sha512-6HBpTNdRtEphL9W/uW4nRHzVTibx2LrFnAwlnBt1GGF8LdSlxhmVrKqj1qr4aOlfS6swlDu/kA0EYfMwevZKtg==}
 
-  '@platformatic/client@2.17.0':
-    resolution: {integrity: sha512-7X8foIak4wNhFJXZXM+GWYyhwIiJUKgU8MOdAuCWUoj06XMe5XdIRoYX28KyKFiO+jXDi3swHvUNOu4ncjlNpQ==}
+  '@platformatic/client@2.18.0':
+    resolution: {integrity: sha512-Ny9eCkQSGQLuX+9SBXmafN87e0G18ZUjNi7idnPrMdPClu3G0s1N8U7USMK9bTOw20kvSGLjQPmL6zo9Q7+33g==}
 
-  '@platformatic/composer@2.17.0':
-    resolution: {integrity: sha512-PjxBuZzk1QPrxNNEJbn5VLDyD1+VCELLBwKOtXz5Y79aXbIL9DqQ3LiAFaFcgvs+JE+3fUm95IERkRTUJ0N4kg==}
+  '@platformatic/composer@2.18.0':
+    resolution: {integrity: sha512-Vq051Es4OWtPMsav3KkkFvkDtP0cK7qYCbfwRaOQipdiMmjUQM6cmm1VshmgyMkFXCHdR6Eu8z56QMqDC5PWRg==}
     hasBin: true
 
-  '@platformatic/config@2.17.0':
-    resolution: {integrity: sha512-Einuw2aZx/HnxKUakylZHIxa5SGSxWd8wmesAnOknbWMVYBq0Bzv7Q/dj9ZhwB2Un6QVt/I8Uj+pzUYRc+7gyA==}
+  '@platformatic/config@2.18.0':
+    resolution: {integrity: sha512-wNbLtMe838slprhQGBbMHSzm6eIQ+4LWdNKvbWU9HNpIE89/BDb6Rq3xta28knCywE6fdjUAvvsZ4iyFvE6kcQ==}
 
-  '@platformatic/control@2.17.0':
-    resolution: {integrity: sha512-uNA339gSb9LLILb3f10ETRvuUsct6HX+0DZj8NvEVdF1nLb84/VniCnFHyQ8D4mJcJkL/j4r/GwVT729y8lP6A==}
+  '@platformatic/control@2.18.0':
+    resolution: {integrity: sha512-7pcNwB3is0ovyXU69H0gXsvByvToQ+txUawyxlDWqVTEpWLWqnxA5KVmJgDHKEP68pvBsY84/wnuZQ5fSLfDCA==}
     hasBin: true
 
   '@platformatic/fastify-http-metrics@0.2.0':
@@ -1019,8 +1031,8 @@ packages:
   '@platformatic/fastify-openapi-glue@5.0.0':
     resolution: {integrity: sha512-VvmOmKbgqVXxOd0QQf5jzkLQpINJwJVlAgtd64FIuYXjkLmHIZphpS2cElrhoMZawgen3SJmcKP5FTzG5OHYtg==}
 
-  '@platformatic/generators@2.17.0':
-    resolution: {integrity: sha512-SczW8cHkWg+ygoyXv5Vr/kP73CUog1Q7Xh1X7MLgefVFq1nvaUcO0OKw1wd08w8G3XeZ80lZyUGY9x9FQsus3A==}
+  '@platformatic/generators@2.18.0':
+    resolution: {integrity: sha512-2Durn+jEqKDUtQ69jha2T/jN/k7+l/k9VwN9DvNNIxtQbBxdmd3MQ+VSBWdx1jJM2CqUIh1VHyIj5CMaiF93Vg==}
 
   '@platformatic/graphql-composer@0.9.0':
     resolution: {integrity: sha512-+4yld45dV/f+BXJZSkgLq+KnvtHz1BRVsFg9nWeJzpV6mQlR28RWBTgwp1pslEjHNp5+RDIHEPBoQrCgpmOk9A==}
@@ -1028,40 +1040,40 @@ packages:
   '@platformatic/http-metrics@0.2.1':
     resolution: {integrity: sha512-Gy3NHUQT250MrJMlwzcSniVc+71DmCN1BpsuJcBlxyDpNacsH9axNonNWSNJqcWg8WOrv7tS6miBql2cugVuAg==}
 
-  '@platformatic/itc@2.17.0':
-    resolution: {integrity: sha512-z/+536ce0oO3KO2Akt//zGZ+3o7Voy8P9zowrOYc/aSuf3Z78orGevIsj6y/qt/81rTYyBBuVsZrkPxGVt5GvA==}
+  '@platformatic/itc@2.18.0':
+    resolution: {integrity: sha512-Z9F97N12xXHlXAql4kRzOV+enNaLq7lCnLs5Gkzp8Iks+5KpqNhv5wIeWPBrHPJFhpDxVRggTGZyp7ueAa8Xhg==}
 
-  '@platformatic/metrics@2.17.0':
-    resolution: {integrity: sha512-nuqXci/d3PW2HGGqFnCruPLIgUIb5gWzJuQSRfN46GC4ELrmOiEcpuZ/PRy4V0upD4b7GuzR07zyoRTb4yFx5A==}
+  '@platformatic/metrics@2.18.0':
+    resolution: {integrity: sha512-5UxP6S7mqqUh7pa2mVFCPBDRdJCBS/soQSSe8sROTu4SInGPcbxFqpNmPgI/LktIGvrddziS5S5MEZHt6GX4Uw==}
 
-  '@platformatic/next@2.17.0':
-    resolution: {integrity: sha512-wSVz07eE0vyZeVidFayn80UpdP8ZcaBuZSPH1Pa+5xe9IG569qNh1IR3oE03akyYqC2ivhMmzQejeScNF5YeHw==}
+  '@platformatic/next@2.18.0':
+    resolution: {integrity: sha512-U53ebVJ/qBliQEHk6oGuZzryGw1u3RL0UslCzX+09wg2fU4kMujgiHpMmYeET48sJQCtXtZwzjX670cZhklWPA==}
 
-  '@platformatic/node@2.17.0':
-    resolution: {integrity: sha512-F2bB2uo445LdtvAHTAJv56KCOwNOTgV0LH90PGGLGSlFEHzHZAbN9NzPKNhQyiRzqVm1EOI1p3O9mTyc7egLbw==}
+  '@platformatic/node@2.18.0':
+    resolution: {integrity: sha512-xIrkL8v1VXbBmUvMN1px3Y8rzms6Ja0EjoOWa7Sm54e412RZwvL3+0tkbpgR0j5OAQRmvK3jt/V7ZiXPNJBRcw==}
 
   '@platformatic/openapi-schema-validator@3.0.0':
     resolution: {integrity: sha512-SHEY5v1Q5EliMaIpXdPCye0QkhFVOoHkEqA8v9qkrO1PqvVOcpii1WqEHYrZZB430sEmrHqEWZInt15EUsR7mw==}
 
-  '@platformatic/runtime@2.17.0':
-    resolution: {integrity: sha512-ill41sEsVYijCN0RoDzArFoMC+fDegibmpxWEDeDCFT7Zy3+Dw9ZACdz0+/LjBMe44OSomy3kDUt4Os4WhYE0g==}
+  '@platformatic/runtime@2.18.0':
+    resolution: {integrity: sha512-N1Y4YcQ/fucUQo+j8SQbqkxWrtLk56UxVerIPN94u7Tsm5WPYID3rPyMoNWKx352gmolzQuGO8fMnDsB1k6f8w==}
     hasBin: true
 
-  '@platformatic/scalar-theme@2.17.0':
-    resolution: {integrity: sha512-yejOP/FKgKG9F3W2lku+vLnkYd2cCIKvyljzDFOca3o9+YEuxeJ5spGQ/FrVh0o1bZgmbohMaEHEZ+ZQLGfnTg==}
+  '@platformatic/scalar-theme@2.18.0':
+    resolution: {integrity: sha512-SR251gS1KkYdPnb8FYUNHff7lBDiuwVLA2HhwKdHLGxSLHe3bi+l+TE1GvOXFVdsnjqu7nLLVuHAay20sqGX8Q==}
 
-  '@platformatic/service@2.17.0':
-    resolution: {integrity: sha512-FzKmZ0kVQQiceF7tQQt8fikDyuXyPGtYtTYZ6TqsV0tbtfS6bVjSdk5sagpmCQgNIEQ43cpvIok8yx2xuxbACw==}
+  '@platformatic/service@2.18.0':
+    resolution: {integrity: sha512-4nPPVRnh0PdKDPBqNkvUiI48ORtEjHD3oKA1b2EBplPme6DaIZ+2pVtgf3kVRL4Cy0zIGcTRdHHn+NC0nY9EjA==}
     hasBin: true
 
-  '@platformatic/telemetry@2.17.0':
-    resolution: {integrity: sha512-VXc2EUbkUA4D8/bHMoUVQ1FsmI/6NPy/+Tzm3deSiFMBBgz3gHqua7TkVGzgEOMzzUGEKyhgWqKSSG/iCUDSMg==}
+  '@platformatic/telemetry@2.18.0':
+    resolution: {integrity: sha512-/djfHG2zOk2zkq7vIjn10yTHlA1YNghbGsFolN32qPVnYWcFIKRAk8424hx4veRcmGpNW2ek9SVteYGPDVoLwA==}
 
-  '@platformatic/ts-compiler@2.17.0':
-    resolution: {integrity: sha512-+Xz8cNIKaVxWOXHW9HEfGkog9xcNYrPdxNfTog5gqHWuuDLGk2dEkb8CU+iW3Y3X92ftvRRayx09+wT5C6T55Q==}
+  '@platformatic/ts-compiler@2.18.0':
+    resolution: {integrity: sha512-g0ZQy5fWKVRUOUX6svTEHimCcbJBBVzHrv8xhxnpTQuvcYkQitUDdBcUXBTJE6H8+V8yXaSJLATRfrTzKL8f8g==}
 
-  '@platformatic/utils@2.17.0':
-    resolution: {integrity: sha512-QidI7aR6D3BE+RS2Xj+i9aAmZgLibHmD8BgpWMEa1cDcQfoKuTToolN0xkqkvSkoCb8cC5r+7ShNoS/bANmFjw==}
+  '@platformatic/utils@2.18.0':
+    resolution: {integrity: sha512-481wkCbQLV69HbR0oqcTkHHcQTiZjdDzdq4n9mSM7nMKrrUPG8Ji7E3VL8i2oFghH0QeIU3MN+e8szzEsZ6Gfw==}
 
   '@polka/url@1.0.0-next.28':
     resolution: {integrity: sha512-8LduaNlMZGwdZ6qWrKlfa+2M4gahzFkprZiAt2TF8uS0qQgBizKXpXURqvTJ4WtmupWxaLqjRb2UCTe72mu+Aw==}
@@ -1259,6 +1271,12 @@ packages:
   '@types/node@22.9.3':
     resolution: {integrity: sha512-F3u1fs/fce3FFk+DAxbxc78DF8x0cY09RRL8GnXLmkJ1jvx3TtPdWoTT5/NiYfI5ASqXBmfqJi9dZ3gxMx4lzw==}
 
+  '@types/pg-pool@2.0.6':
+    resolution: {integrity: sha512-TaAUE5rq2VQYxab5Ts7WZhKNmuN78Q6PiFonTDdpbx8a1H0M1vhy3rhiMjl+e2iHmogyMw7jZF4FrE6eJUy5HQ==}
+
+  '@types/pg@8.6.1':
+    resolution: {integrity: sha512-1Kc4oAGzAl7uqUStZCDvaLFqZrW9qWSjXOmBfdgyBP5La7Us6Mg4GBvRlSoaZMhQF/zSj1C8CtKMBkoiT8eL8w==}
+
   '@types/prop-types@15.7.13':
     resolution: {integrity: sha512-hCZTSvwbzWGvhqxp/RqVqwU999pBf2vp7hzIjiYOsl8wqOmUxkQ6ddw1cV3l8811+kdUFus/q4d1Y3E3SyEifA==}
 
@@ -1295,48 +1313,48 @@ packages:
   '@unhead/schema@1.11.11':
     resolution: {integrity: sha512-xSGsWHPBYcMV/ckQeImbrVu6ddeRnrdDCgXUKv3xIjGBY+ob/96V80lGX8FKWh8GwdFSwhblISObKlDAt5K9ZQ==}
 
-  '@vitest/coverage-v8@2.1.5':
-    resolution: {integrity: sha512-/RoopB7XGW7UEkUndRXF87A9CwkoZAJW01pj8/3pgmDVsjMH2IKy6H1A38po9tmUlwhSyYs0az82rbKd9Yaynw==}
+  '@vitest/coverage-v8@2.1.6':
+    resolution: {integrity: sha512-qItJVYDbG3MUFO68dOZUz+rWlqe9LMzotERXFXKg25s2A/kSVsyS9O0yNGrITfBd943GsnBeQZkBUu7Pc+zVeA==}
     peerDependencies:
-      '@vitest/browser': 2.1.5
-      vitest: 2.1.5
+      '@vitest/browser': 2.1.6
+      vitest: 2.1.6
     peerDependenciesMeta:
       '@vitest/browser':
         optional: true
 
-  '@vitest/expect@2.1.5':
-    resolution: {integrity: sha512-nZSBTW1XIdpZvEJyoP/Sy8fUg0b8od7ZpGDkTUcfJ7wz/VoZAFzFfLyxVxGFhUjJzhYqSbIpfMtl/+k/dpWa3Q==}
+  '@vitest/expect@2.1.6':
+    resolution: {integrity: sha512-9M1UR9CAmrhJOMoSwVnPh2rELPKhYo0m/CSgqw9PyStpxtkwhmdM6XYlXGKeYyERY1N6EIuzkQ7e3Lm1WKCoUg==}
 
-  '@vitest/mocker@2.1.5':
-    resolution: {integrity: sha512-XYW6l3UuBmitWqSUXTNXcVBUCRytDogBsWuNXQijc00dtnU/9OqpXWp4OJroVrad/gLIomAq9aW8yWDBtMthhQ==}
+  '@vitest/mocker@2.1.6':
+    resolution: {integrity: sha512-MHZp2Z+Q/A3am5oD4WSH04f9B0T7UvwEb+v5W0kCYMhtXGYbdyl2NUk1wdSMqGthmhpiThPDp/hEoVwu16+u1A==}
     peerDependencies:
       msw: ^2.4.9
-      vite: ^5.0.0
+      vite: ^5.0.0 || ^6.0.0
     peerDependenciesMeta:
       msw:
         optional: true
       vite:
         optional: true
 
-  '@vitest/pretty-format@2.1.5':
-    resolution: {integrity: sha512-4ZOwtk2bqG5Y6xRGHcveZVr+6txkH7M2e+nPFd6guSoN638v/1XQ0K06eOpi0ptVU/2tW/pIU4IoPotY/GZ9fw==}
+  '@vitest/pretty-format@2.1.6':
+    resolution: {integrity: sha512-exZyLcEnHgDMKc54TtHca4McV4sKT+NKAe9ix/yhd/qkYb/TP8HTyXRFDijV19qKqTZM0hPL4753zU/U8L/gAA==}
 
-  '@vitest/runner@2.1.5':
-    resolution: {integrity: sha512-pKHKy3uaUdh7X6p1pxOkgkVAFW7r2I818vHDthYLvUyjRfkKOU6P45PztOch4DZarWQne+VOaIMwA/erSSpB9g==}
+  '@vitest/runner@2.1.6':
+    resolution: {integrity: sha512-SjkRGSFyrA82m5nz7To4CkRSEVWn/rwQISHoia/DB8c6IHIhaE/UNAo+7UfeaeJRE979XceGl00LNkIz09RFsA==}
 
-  '@vitest/snapshot@2.1.5':
-    resolution: {integrity: sha512-zmYw47mhfdfnYbuhkQvkkzYroXUumrwWDGlMjpdUr4jBd3HZiV2w7CQHj+z7AAS4VOtWxI4Zt4bWt4/sKcoIjg==}
+  '@vitest/snapshot@2.1.6':
+    resolution: {integrity: sha512-5JTWHw8iS9l3v4/VSuthCndw1lN/hpPB+mlgn1BUhFbobeIUj1J1V/Bj2t2ovGEmkXLTckFjQddsxS5T6LuVWw==}
 
-  '@vitest/spy@2.1.5':
-    resolution: {integrity: sha512-aWZF3P0r3w6DiYTVskOYuhBc7EMc3jvn1TkBg8ttylFFRqNN2XGD7V5a4aQdk6QiUzZQ4klNBSpCLJgWNdIiNw==}
+  '@vitest/spy@2.1.6':
+    resolution: {integrity: sha512-oTFObV8bd4SDdRka5O+mSh5w9irgx5IetrD5i+OsUUsk/shsBoHifwCzy45SAORzAhtNiprUVaK3hSCCzZh1jQ==}
 
-  '@vitest/ui@2.1.5':
-    resolution: {integrity: sha512-ERgKkDMTfngrZip6VG5h8L9B5D0AH/4+bga4yR1UzGH7c2cxv3LWogw2Dvuwr9cP3/iKDHYys7kIFLDKpxORTg==}
+  '@vitest/ui@2.1.6':
+    resolution: {integrity: sha512-SrpLAM0/xpOjXBDv3mayFh5TDEYM59fmEmJXgp1AqtpUWHVw4Tonp6Z9dVBhChU/Q+BY57m74nrQZK8vxKDrMQ==}
     peerDependencies:
-      vitest: 2.1.5
+      vitest: 2.1.6
 
-  '@vitest/utils@2.1.5':
-    resolution: {integrity: sha512-yfj6Yrp0Vesw2cwJbP+cl04OC+IHFsuQsrsJBL9pyGeQXE56v1UAOQco+SR55Vf1nQzfV0QJg1Qum7AaWUwwYg==}
+  '@vitest/utils@2.1.6':
+    resolution: {integrity: sha512-ixNkFy3k4vokOUTU2blIUvOgKq/N2PW8vKIjZZYsGJCMX69MRa9J2sKqX5hY/k5O5Gty3YJChepkqZ3KM9LyIQ==}
 
   '@watchable/unpromise@1.0.2':
     resolution: {integrity: sha512-yGCKYzCrAfJQ9yzm76r1bl4WUIWyqmh4vqidXn5LyOfPbgdiZrKOyvW2ivqIvtmsRVb7u3ModEpc4q901VRgXw==}
@@ -2586,6 +2604,17 @@ packages:
     resolution: {integrity: sha512-vE7JKRyES09KiunauX7nd2Q9/L7lhok4smP9RZTDeD4MVs72Dp2qNFVz39Nz5a0FVEW0BJR6C0DYrq6unoziZA==}
     engines: {node: '>= 14.16'}
 
+  pg-int8@1.0.1:
+    resolution: {integrity: sha512-WCtabS6t3c8SkpDBUlb1kjOs7l66xsGdKpIPZsg4wR+B3+u9UAum2odSsF9tnvxg80h4ZxLWMy4pRjOsFIqQpw==}
+    engines: {node: '>=4.0.0'}
+
+  pg-protocol@1.7.0:
+    resolution: {integrity: sha512-hTK/mE36i8fDDhgDFjy6xNOG+LCorxLG3WO17tku+ij6sVHXh1jQUJ8hYAnRhNla4QVD2H8er/FOjc/+EgC6yQ==}
+
+  pg-types@2.2.0:
+    resolution: {integrity: sha512-qTAAlrEsl8s4OiEQY69wDvcMIdQN6wdz5ojQiOy6YRMuynxenON0O5oCpJI6lshc6scgAY8qvJ2On/p+CXY0GA==}
+    engines: {node: '>=4'}
+
   picocolors@1.1.1:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
 
@@ -2649,6 +2678,22 @@ packages:
   postcss@8.4.49:
     resolution: {integrity: sha512-OCVPnIObs4N29kxTjzLfUryOkvZEq+pf8jTF0lg8E7uETuWHA+v7j3c/xJmiqpX450191LlmZfUKkXxkTry7nA==}
     engines: {node: ^10 || ^12 || >=14}
+
+  postgres-array@2.0.0:
+    resolution: {integrity: sha512-VpZrUqU5A69eQyW2c5CA1jtLecCsN2U/bD6VilrFDWq5+5UIEVO7nazS3TEcHf1zuPYO/sqGvUvW62g86RXZuA==}
+    engines: {node: '>=4'}
+
+  postgres-bytea@1.0.0:
+    resolution: {integrity: sha512-xy3pmLuQqRBZBXDULy7KbaitYqLcmxigw14Q5sj8QBVLqEwXfeybIKVWiqAXTlcvdvb0+xkOtDbfQMOf4lST1w==}
+    engines: {node: '>=0.10.0'}
+
+  postgres-date@1.0.7:
+    resolution: {integrity: sha512-suDmjLVQg78nMK2UZ454hAG+OAW+HQPZ6n++TNDUX+L0+uUlLywnoxJKDou51Zm+zTCjrCl0Nq6J9C5hP9vK/Q==}
+    engines: {node: '>=0.10.0'}
+
+  postgres-interval@1.2.0:
+    resolution: {integrity: sha512-9ZhXKM/rw350N1ovuWHbGxnGh/SNJ4cnxHiM0rxE4VN41wsg8P8zWn9hv/buK00RP4WvlOyr/RBDiptyxVbkZQ==}
+    engines: {node: '>=0.10.0'}
 
   prelude-ls@1.1.2:
     resolution: {integrity: sha512-ESF23V4SKG6lVSGZgYNpbsiaAkdab6ZgOxe52p7+Kid3W3u3bxR4Vfd/o21dmN7jSt0IwgZ4v5MUd26FEtXE9w==}
@@ -3188,9 +3233,9 @@ packages:
     resolution: {integrity: sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==}
     engines: {node: '>= 0.8'}
 
-  vite-node@2.1.5:
-    resolution: {integrity: sha512-rd0QIgx74q4S1Rd56XIiL2cYEdyWn13cunYBIuqh9mpmQr7gGS0IxXoP8R6OaZtNQQLyXSWbd4rXKYUbhFpK5w==}
-    engines: {node: ^18.0.0 || >=20.0.0}
+  vite-node@2.1.6:
+    resolution: {integrity: sha512-DBfJY0n9JUwnyLxPSSUmEePT21j8JZp/sR9n+/gBwQU6DcQOioPdb8/pibWfXForbirSagZCilseYIwaL3f95A==}
+    engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
 
   vite@5.4.11:
@@ -3224,15 +3269,15 @@ packages:
       terser:
         optional: true
 
-  vitest@2.1.5:
-    resolution: {integrity: sha512-P4ljsdpuzRTPI/kbND2sDZ4VmieerR2c9szEZpjc+98Z9ebvnXmM5+0tHEKqYZumXqlvnmfWsjeFOjXVriDG7A==}
-    engines: {node: ^18.0.0 || >=20.0.0}
+  vitest@2.1.6:
+    resolution: {integrity: sha512-isUCkvPL30J4c5O5hgONeFRsDmlw6kzFEdLQHLezmDdKQHy8Ke/B/dgdTMEgU0vm+iZ0TjW8GuK83DiahBoKWQ==}
+    engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
       '@edge-runtime/vm': '*'
-      '@types/node': ^18.0.0 || >=20.0.0
-      '@vitest/browser': 2.1.5
-      '@vitest/ui': 2.1.5
+      '@types/node': ^18.0.0 || ^20.0.0 || >=22.0.0
+      '@vitest/browser': 2.1.6
+      '@vitest/ui': 2.1.6
       happy-dom: '*'
       jsdom: '*'
     peerDependenciesMeta:
@@ -3249,8 +3294,8 @@ packages:
       jsdom:
         optional: true
 
-  wattpm@2.17.0:
-    resolution: {integrity: sha512-7p7itocwUtPFL7jz+TqyH5xbe7qL4SM0lI1tQkQ084ydA7ojKaB4Eung7uk9W5O+aHz+O4AiT4+fL5mWBAXEXQ==}
+  wattpm@2.18.0:
+    resolution: {integrity: sha512-sVOB+nyc8n7SizLfN3eSGHSO3Wf/+J+sRXFKH9srrU8nXME0oMjVY5huOudBfVaViirbS3x9b8Ux6o0JB/LKfQ==}
     hasBin: true
 
   wcwidth@1.0.1:
@@ -3951,6 +3996,18 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  '@opentelemetry/instrumentation-pg@0.48.0(@opentelemetry/api@1.9.0)':
+    dependencies:
+      '@opentelemetry/api': 1.9.0
+      '@opentelemetry/core': 1.28.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/instrumentation': 0.55.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/semantic-conventions': 1.27.0
+      '@opentelemetry/sql-common': 0.40.1(@opentelemetry/api@1.9.0)
+      '@types/pg': 8.6.1
+      '@types/pg-pool': 2.0.6
+    transitivePeerDependencies:
+      - supports-color
+
   '@opentelemetry/instrumentation-undici@0.8.0(@opentelemetry/api@1.9.0)':
     dependencies:
       '@opentelemetry/api': 1.9.0
@@ -4068,17 +4125,22 @@ snapshots:
 
   '@opentelemetry/semantic-conventions@1.28.0': {}
 
+  '@opentelemetry/sql-common@0.40.1(@opentelemetry/api@1.9.0)':
+    dependencies:
+      '@opentelemetry/api': 1.9.0
+      '@opentelemetry/core': 1.28.0(@opentelemetry/api@1.9.0)
+
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@platformatic/basic@2.17.0':
+  '@platformatic/basic@2.18.0':
     dependencies:
       '@fastify/error': 4.0.0
-      '@platformatic/config': 2.17.0
-      '@platformatic/itc': 2.17.0
-      '@platformatic/metrics': 2.17.0
-      '@platformatic/telemetry': 2.17.0
-      '@platformatic/utils': 2.17.0
+      '@platformatic/config': 2.18.0
+      '@platformatic/itc': 2.18.0
+      '@platformatic/metrics': 2.18.0
+      '@platformatic/telemetry': 2.18.0
+      '@platformatic/utils': 2.18.0
       execa: 9.5.1
       pino: 9.5.0
       pino-abstract-transport: 2.0.0
@@ -4091,7 +4153,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@platformatic/client@2.17.0':
+  '@platformatic/client@2.18.0':
     dependencies:
       '@apidevtools/json-schema-ref-parser': 11.7.2
       '@fastify/error': 4.0.0
@@ -4102,7 +4164,7 @@ snapshots:
       jsonpointer: 5.0.1
       undici: 6.21.0
 
-  '@platformatic/composer@2.17.0':
+  '@platformatic/composer@2.18.0':
     dependencies:
       '@fastify/error': 4.0.0
       '@fastify/http-proxy': 10.0.2
@@ -4110,14 +4172,14 @@ snapshots:
       '@fastify/static': 8.0.3
       '@fastify/swagger': 9.4.0
       '@fastify/view': 10.0.1
-      '@platformatic/config': 2.17.0
+      '@platformatic/config': 2.18.0
       '@platformatic/fastify-openapi-glue': 5.0.0
-      '@platformatic/generators': 2.17.0
+      '@platformatic/generators': 2.18.0
       '@platformatic/graphql-composer': 0.9.0
-      '@platformatic/scalar-theme': 2.17.0
-      '@platformatic/service': 2.17.0
-      '@platformatic/telemetry': 2.17.0
-      '@platformatic/utils': 2.17.0
+      '@platformatic/scalar-theme': 2.18.0
+      '@platformatic/service': 2.18.0
+      '@platformatic/telemetry': 2.18.0
+      '@platformatic/utils': 2.18.0
       '@scalar/fastify-api-reference': 1.25.71
       ajv: 8.17.1
       commist: 3.2.0
@@ -4147,11 +4209,11 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@platformatic/config@2.17.0':
+  '@platformatic/config@2.18.0':
     dependencies:
       '@fastify/deepmerge': 2.0.0
       '@fastify/error': 4.0.0
-      '@platformatic/utils': 2.17.0
+      '@platformatic/utils': 2.18.0
       abstract-logging: 2.0.1
       ajv: 8.17.1
       dotenv: 16.4.5
@@ -4161,10 +4223,10 @@ snapshots:
       semver: 7.6.3
       undici: 6.21.0
 
-  '@platformatic/control@2.17.0':
+  '@platformatic/control@2.18.0':
     dependencies:
       '@fastify/error': 4.0.0
-      '@platformatic/utils': 2.17.0
+      '@platformatic/utils': 2.18.0
       commist: 3.2.0
       help-me: 5.0.0
       pino: 9.5.0
@@ -4187,10 +4249,10 @@ snapshots:
       fastify-plugin: 5.0.1
       js-yaml: 4.1.0
 
-  '@platformatic/generators@2.17.0':
+  '@platformatic/generators@2.18.0':
     dependencies:
       '@fastify/error': 4.0.0
-      '@platformatic/utils': 2.17.0
+      '@platformatic/utils': 2.18.0
       boring-name-generator: 1.0.3
       change-case-all: 2.1.0
       fastify: 5.1.0
@@ -4214,37 +4276,37 @@ snapshots:
     dependencies:
       prom-client: 15.1.3
 
-  '@platformatic/itc@2.17.0':
+  '@platformatic/itc@2.18.0':
     dependencies:
       '@fastify/error': 4.0.0
       '@watchable/unpromise': 1.0.2
 
-  '@platformatic/metrics@2.17.0':
+  '@platformatic/metrics@2.18.0':
     dependencies:
       '@platformatic/http-metrics': 0.2.1
       prom-client: 15.1.3
       thread-cpu-usage: 0.2.0
 
-  '@platformatic/next@2.17.0':
+  '@platformatic/next@2.18.0':
     dependencies:
       '@babel/generator': 7.26.2
       '@babel/parser': 7.26.2
       '@babel/traverse': 7.25.9
       '@babel/types': 7.26.0
-      '@platformatic/basic': 2.17.0
-      '@platformatic/config': 2.17.0
-      '@platformatic/utils': 2.17.0
+      '@platformatic/basic': 2.18.0
+      '@platformatic/config': 2.18.0
+      '@platformatic/utils': 2.18.0
       semver: 7.6.3
     transitivePeerDependencies:
       - bufferutil
       - supports-color
       - utf-8-validate
 
-  '@platformatic/node@2.17.0':
+  '@platformatic/node@2.18.0':
     dependencies:
-      '@platformatic/basic': 2.17.0
-      '@platformatic/config': 2.17.0
-      '@platformatic/utils': 2.17.0
+      '@platformatic/basic': 2.18.0
+      '@platformatic/config': 2.18.0
+      '@platformatic/utils': 2.18.0
       light-my-request: 6.3.0
     transitivePeerDependencies:
       - bufferutil
@@ -4258,19 +4320,19 @@ snapshots:
       ajv-formats: 3.0.1(ajv@8.17.1)
       js-yaml: 4.1.0
 
-  '@platformatic/runtime@2.17.0':
+  '@platformatic/runtime@2.18.0':
     dependencies:
       '@fastify/error': 4.0.0
       '@fastify/websocket': 11.0.1
       '@hapi/topo': 6.0.2
-      '@platformatic/basic': 2.17.0
-      '@platformatic/config': 2.17.0
-      '@platformatic/generators': 2.17.0
+      '@platformatic/basic': 2.18.0
+      '@platformatic/config': 2.18.0
+      '@platformatic/generators': 2.18.0
       '@platformatic/http-metrics': 0.2.1
-      '@platformatic/itc': 2.17.0
-      '@platformatic/telemetry': 2.17.0
-      '@platformatic/ts-compiler': 2.17.0
-      '@platformatic/utils': 2.17.0
+      '@platformatic/itc': 2.18.0
+      '@platformatic/telemetry': 2.18.0
+      '@platformatic/ts-compiler': 2.18.0
+      '@platformatic/utils': 2.18.0
       '@watchable/unpromise': 1.0.2
       boring-name-generator: 1.0.3
       change-case-all: 2.1.0
@@ -4299,9 +4361,9 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@platformatic/scalar-theme@2.17.0': {}
+  '@platformatic/scalar-theme@2.18.0': {}
 
-  '@platformatic/service@2.17.0':
+  '@platformatic/service@2.18.0':
     dependencies:
       '@fastify/accepts': 5.0.1
       '@fastify/autoload': 6.0.2
@@ -4313,15 +4375,15 @@ snapshots:
       '@fastify/swagger': 9.4.0
       '@fastify/under-pressure': 9.0.1
       '@mercuriusjs/federation': 4.0.0
-      '@platformatic/client': 2.17.0
-      '@platformatic/config': 2.17.0
+      '@platformatic/client': 2.18.0
+      '@platformatic/config': 2.18.0
       '@platformatic/fastify-http-metrics': 0.2.0
-      '@platformatic/generators': 2.17.0
-      '@platformatic/metrics': 2.17.0
-      '@platformatic/scalar-theme': 2.17.0
-      '@platformatic/telemetry': 2.17.0
-      '@platformatic/ts-compiler': 2.17.0
-      '@platformatic/utils': 2.17.0
+      '@platformatic/generators': 2.18.0
+      '@platformatic/metrics': 2.18.0
+      '@platformatic/scalar-theme': 2.18.0
+      '@platformatic/telemetry': 2.18.0
+      '@platformatic/ts-compiler': 2.18.0
+      '@platformatic/utils': 2.18.0
       '@scalar/fastify-api-reference': 1.25.71
       '@types/ws': 8.5.13
       ajv: 8.17.1
@@ -4355,7 +4417,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@platformatic/telemetry@2.17.0':
+  '@platformatic/telemetry@2.18.0':
     dependencies:
       '@fastify/swagger': 9.4.0
       '@opentelemetry/api': 1.9.0
@@ -4363,6 +4425,7 @@ snapshots:
       '@opentelemetry/exporter-trace-otlp-proto': 0.55.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/exporter-zipkin': 1.28.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/instrumentation-http': 0.55.0(@opentelemetry/api@1.9.0)
+      '@opentelemetry/instrumentation-pg': 0.48.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/instrumentation-undici': 0.8.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/resources': 1.28.0(@opentelemetry/api@1.9.0)
       '@opentelemetry/sdk-node': 0.55.0(@opentelemetry/api@1.9.0)
@@ -4374,15 +4437,15 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@platformatic/ts-compiler@2.17.0':
+  '@platformatic/ts-compiler@2.18.0':
     dependencies:
-      '@platformatic/utils': 2.17.0
+      '@platformatic/utils': 2.18.0
       execa: 8.0.1
       pino: 9.5.0
       pino-pretty: 13.0.0
       resolve: 1.22.8
 
-  '@platformatic/utils@2.17.0':
+  '@platformatic/utils@2.18.0':
     dependencies:
       '@fastify/deepmerge': 2.0.0
       '@fastify/error': 4.0.0
@@ -4550,6 +4613,16 @@ snapshots:
     dependencies:
       undici-types: 6.19.8
 
+  '@types/pg-pool@2.0.6':
+    dependencies:
+      '@types/pg': 8.6.1
+
+  '@types/pg@8.6.1':
+    dependencies:
+      '@types/node': 22.10.0
+      pg-protocol: 1.7.0
+      pg-types: 2.2.0
+
   '@types/prop-types@15.7.13': {}
 
   '@types/qs@6.9.17': {}
@@ -4599,7 +4672,7 @@ snapshots:
       hookable: 5.5.3
       zhead: 2.2.4
 
-  '@vitest/coverage-v8@2.1.5(vitest@2.1.5)':
+  '@vitest/coverage-v8@2.1.6(vitest@2.1.6)':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@bcoe/v8-coverage': 0.2.3
@@ -4613,58 +4686,58 @@ snapshots:
       std-env: 3.8.0
       test-exclude: 7.0.1
       tinyrainbow: 1.2.0
-      vitest: 2.1.5(@types/node@22.10.0)(@vitest/ui@2.1.5)
+      vitest: 2.1.6(@types/node@22.10.0)(@vitest/ui@2.1.6)
     transitivePeerDependencies:
       - supports-color
 
-  '@vitest/expect@2.1.5':
+  '@vitest/expect@2.1.6':
     dependencies:
-      '@vitest/spy': 2.1.5
-      '@vitest/utils': 2.1.5
+      '@vitest/spy': 2.1.6
+      '@vitest/utils': 2.1.6
       chai: 5.1.2
       tinyrainbow: 1.2.0
 
-  '@vitest/mocker@2.1.5(vite@5.4.11(@types/node@22.10.0))':
+  '@vitest/mocker@2.1.6(vite@5.4.11(@types/node@22.10.0))':
     dependencies:
-      '@vitest/spy': 2.1.5
+      '@vitest/spy': 2.1.6
       estree-walker: 3.0.3
       magic-string: 0.30.13
     optionalDependencies:
       vite: 5.4.11(@types/node@22.10.0)
 
-  '@vitest/pretty-format@2.1.5':
+  '@vitest/pretty-format@2.1.6':
     dependencies:
       tinyrainbow: 1.2.0
 
-  '@vitest/runner@2.1.5':
+  '@vitest/runner@2.1.6':
     dependencies:
-      '@vitest/utils': 2.1.5
+      '@vitest/utils': 2.1.6
       pathe: 1.1.2
 
-  '@vitest/snapshot@2.1.5':
+  '@vitest/snapshot@2.1.6':
     dependencies:
-      '@vitest/pretty-format': 2.1.5
+      '@vitest/pretty-format': 2.1.6
       magic-string: 0.30.13
       pathe: 1.1.2
 
-  '@vitest/spy@2.1.5':
+  '@vitest/spy@2.1.6':
     dependencies:
       tinyspy: 3.0.2
 
-  '@vitest/ui@2.1.5(vitest@2.1.5)':
+  '@vitest/ui@2.1.6(vitest@2.1.6)':
     dependencies:
-      '@vitest/utils': 2.1.5
+      '@vitest/utils': 2.1.6
       fflate: 0.8.2
       flatted: 3.3.2
       pathe: 1.1.2
       sirv: 3.0.0
       tinyglobby: 0.2.10
       tinyrainbow: 1.2.0
-      vitest: 2.1.5(@types/node@22.10.0)(@vitest/ui@2.1.5)
+      vitest: 2.1.6(@types/node@22.10.0)(@vitest/ui@2.1.6)
 
-  '@vitest/utils@2.1.5':
+  '@vitest/utils@2.1.6':
     dependencies:
-      '@vitest/pretty-format': 2.1.5
+      '@vitest/pretty-format': 2.1.6
       loupe: 3.1.2
       tinyrainbow: 1.2.0
 
@@ -5946,6 +6019,18 @@ snapshots:
 
   pathval@2.0.0: {}
 
+  pg-int8@1.0.1: {}
+
+  pg-protocol@1.7.0: {}
+
+  pg-types@2.2.0:
+    dependencies:
+      pg-int8: 1.0.1
+      postgres-array: 2.0.0
+      postgres-bytea: 1.0.0
+      postgres-date: 1.0.7
+      postgres-interval: 1.2.0
+
   picocolors@1.1.1: {}
 
   picomatch@4.0.2: {}
@@ -6033,6 +6118,16 @@ snapshots:
       nanoid: 3.3.7
       picocolors: 1.1.1
       source-map-js: 1.2.1
+
+  postgres-array@2.0.0: {}
+
+  postgres-bytea@1.0.0: {}
+
+  postgres-date@1.0.7: {}
+
+  postgres-interval@1.2.0:
+    dependencies:
+      xtend: 4.0.2
 
   prelude-ls@1.1.2: {}
 
@@ -6233,7 +6328,7 @@ snapshots:
 
   send@1.1.0:
     dependencies:
-      debug: 4.3.6
+      debug: 4.3.7
       destroy: 1.2.0
       encodeurl: 2.0.0
       escape-html: 1.0.3
@@ -6605,7 +6700,7 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite-node@2.1.5(@types/node@22.10.0):
+  vite-node@2.1.6(@types/node@22.10.0):
     dependencies:
       cac: 6.7.14
       debug: 4.3.7
@@ -6632,15 +6727,15 @@ snapshots:
       '@types/node': 22.10.0
       fsevents: 2.3.3
 
-  vitest@2.1.5(@types/node@22.10.0)(@vitest/ui@2.1.5):
+  vitest@2.1.6(@types/node@22.10.0)(@vitest/ui@2.1.6):
     dependencies:
-      '@vitest/expect': 2.1.5
-      '@vitest/mocker': 2.1.5(vite@5.4.11(@types/node@22.10.0))
-      '@vitest/pretty-format': 2.1.5
-      '@vitest/runner': 2.1.5
-      '@vitest/snapshot': 2.1.5
-      '@vitest/spy': 2.1.5
-      '@vitest/utils': 2.1.5
+      '@vitest/expect': 2.1.6
+      '@vitest/mocker': 2.1.6(vite@5.4.11(@types/node@22.10.0))
+      '@vitest/pretty-format': 2.1.6
+      '@vitest/runner': 2.1.6
+      '@vitest/snapshot': 2.1.6
+      '@vitest/spy': 2.1.6
+      '@vitest/utils': 2.1.6
       chai: 5.1.2
       debug: 4.3.7
       expect-type: 1.1.0
@@ -6652,11 +6747,11 @@ snapshots:
       tinypool: 1.0.2
       tinyrainbow: 1.2.0
       vite: 5.4.11(@types/node@22.10.0)
-      vite-node: 2.1.5(@types/node@22.10.0)
+      vite-node: 2.1.6(@types/node@22.10.0)
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 22.10.0
-      '@vitest/ui': 2.1.5(vitest@2.1.5)
+      '@vitest/ui': 2.1.6(vitest@2.1.6)
     transitivePeerDependencies:
       - less
       - lightningcss
@@ -6668,13 +6763,13 @@ snapshots:
       - supports-color
       - terser
 
-  wattpm@2.17.0:
+  wattpm@2.18.0:
     dependencies:
-      '@platformatic/basic': 2.17.0
-      '@platformatic/config': 2.17.0
-      '@platformatic/control': 2.17.0
-      '@platformatic/runtime': 2.17.0
-      '@platformatic/utils': 2.17.0
+      '@platformatic/basic': 2.18.0
+      '@platformatic/config': 2.18.0
+      '@platformatic/control': 2.18.0
+      '@platformatic/runtime': 2.18.0
+      '@platformatic/utils': 2.18.0
       colorette: 2.0.20
       commist: 3.2.0
       execa: 9.5.1
