@@ -3,6 +3,6 @@
 	"main": "server.js",
 	"type": "module",
 	"dependencies": {
-		"@platformatic/node": "2.27.1"
+		"@platformatic/node": "2.28.0"
 	}
 }
