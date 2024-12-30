@@ -696,8 +696,8 @@ packages:
   '@fastify/deepmerge@1.3.0':
     resolution: {integrity: sha512-J8TOSBq3SoZbDhM9+R/u77hP93gz/rajSA+K2kGyijPpORPWUXHUpTaleoj+92As0S9uPRP7Oi8IqMf0u+ro6A==}
 
-  '@fastify/deepmerge@2.0.0':
-    resolution: {integrity: sha512-fsaybTGDyQ5KpPsplQqb9yKdCf2x/pbNpMNk8Tvp3rRz7lVcupKysH4b2ELMN2P4Hak1+UqTYdTj/u4FNV2p0g==}
+  '@fastify/deepmerge@2.0.1':
+    resolution: {integrity: sha512-hx+wJQr9Ph1hY/dyzY0SxqjumMyqZDlIF6oe71dpRKDHUg7dFQfjG94qqwQ274XRjmUrwKiYadex8XplNHx3CA==}
 
   '@fastify/error@4.0.0':
     resolution: {integrity: sha512-OO/SA8As24JtT1usTUTKgGH7uLvhfwZPwlptRi2Dp5P4KKmJI3gvsZ8MIHnNwDs4sLf/aai5LzTyl66xr7qMxA==}
@@ -1286,8 +1286,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@scalar/fastify-api-reference@1.25.96':
-    resolution: {integrity: sha512-jvQGnGRVfNomoq4ajZ82b97H1q69w1fl3Z57U/TNKpkttkgxXrZBRRBq0EvEbSLdqh99wsi41txzei9j3tk83A==}
+  '@scalar/fastify-api-reference@1.25.99':
+    resolution: {integrity: sha512-5BFxqFgBaNpgw72g5022FyZW/dBKIBGpB91v9gma6+k/vm32R0BnTHbafbbhaWR0uA/vPvt1ieiNfDW4Aqd/Jg==}
     engines: {node: '>=18'}
 
   '@scalar/openapi-types@0.1.5':
@@ -1497,8 +1497,8 @@ packages:
   ajv@8.17.1:
     resolution: {integrity: sha512-B/gBuNg5SiMTrPkC+A2+cW0RszwxYmn6VYxB/inlBStS5nx6xHIt/ehKRhIMhqusl7a8LjQoZnjCs5vhwxOQ1g==}
 
-  amaro@0.2.0:
-    resolution: {integrity: sha512-MMF2dM9+koYMz/je5nLKCrGXQi+WBD0GwfcUFSe3EHwX3O6h26szfUIuE9VibDDoTMswZ6TKSjYhrgb8je3yAQ==}
+  amaro@0.2.1:
+    resolution: {integrity: sha512-ANGzssgHRuJqNAM9PAff07obDp1cjAGrLfiz/qMDmKIrhVsz/wQK9JCJuFP0X079j9y0OSHH0MfLfpdQZ5WW1w==}
     engines: {node: '>=22'}
 
   ansi-regex@5.0.1:
@@ -1721,8 +1721,8 @@ packages:
   component-emitter@1.3.1:
     resolution: {integrity: sha512-T0+barUSQRTUQASh8bx02dl+DhF54GtIDY13Y3m9oWTklKbb3Wv974meRpeZ3lp1JpLVECWWNHC4vaG2XHXouQ==}
 
-  consola@3.3.0:
-    resolution: {integrity: sha512-kxltocVQCwQNFvw40dlVRYeAkAvtYjMFZYNlOcsF5wExPpGwPxMwgx4IfDJvBRPtBpnQwItd5WkTaR0ZwT/TmQ==}
+  consola@3.3.3:
+    resolution: {integrity: sha512-Qil5KwghMzlqd51UXM0b6fyaGHtOC22scxrwrz4A2882LyUMwQjnvaedN1HAeXzphspQ6CpHkzMAWxBTUruDLg==}
     engines: {node: ^14.18.0 || >=16.10.0}
 
   console-table-printer@2.12.1:
@@ -1904,8 +1904,8 @@ packages:
   es-main@1.3.0:
     resolution: {integrity: sha512-AzORKdz1Zt97TzbYQnIrI3ZiibWpRXUfpo/w0xOJ20GpNYd2bd3MU9m31zS/aJ1TJl6JfLTok83Y8HjNunYT0A==}
 
-  es-module-lexer@1.5.4:
-    resolution: {integrity: sha512-MVNK56NiMrOwitFB7cqDwq0CQutbw+0BvLshJSse0MUNU+y1FC3bUS/AQg7oUng+/wKrrki7JfmwtVHkVfPLlw==}
+  es-module-lexer@1.6.0:
+    resolution: {integrity: sha512-qqnD1yMU6tk/jnaMosogGySTZP8YtUgAffA9nMN+E/rjxcfRQ6IEk7IiozUjgxKoFHBGjTLnrHB/YC45r/59EQ==}
 
   es-object-atoms@1.0.0:
     resolution: {integrity: sha512-MZ4iQ6JwHOBQjahnjwaC1ZtIBH+2ohjamzAO3oaHcXYup7qxjF2fixyH+Q71voWHeOkI2q/TnJao/KfXYIZWbw==}
@@ -2052,8 +2052,8 @@ packages:
   fastparallel@2.4.1:
     resolution: {integrity: sha512-qUmhxPgNHmvRjZKBFUNI0oZuuH9OlSIOXmJ98lhKPxMZZ7zS/Fi0wRHOihDSz0R1YiIOjxzOY4bq65YTcdBi2Q==}
 
-  fastq@1.17.1:
-    resolution: {integrity: sha512-sRVD3lWVIXWg6By68ZN7vho9a1pQcN/WBFaAAsDDFzlJjvoGx0P8z7V1t72grFJfJhu3YPZBuu25f7Kaw2jN1w==}
+  fastq@1.18.0:
+    resolution: {integrity: sha512-QKHXPW0hD8g4UET03SdOdunzSouc9N4AuHdsX8XNcTsuz+yYFILVNIX4l9yHABMhiEI9Db0JTTIpu0wB+Y1QQw==}
 
   fdir@6.4.2:
     resolution: {integrity: sha512-KnhMXsKSPZlAhp7+IjUkRZKPb4fUyccpDrdFXbi4QL1qkmFh9kVY09Yox+n4MaOb3lHZ1Tv829C3oaaXoMYPDQ==}
@@ -2734,10 +2734,6 @@ packages:
   pino-std-serializers@7.0.0:
     resolution: {integrity: sha512-e906FRY0+tV27iq4juKzSYPbUj2do2X2JX4EzSca1631EB2QJQUqGbDuERal7LCtOpxl6x3+nvo9NPZcmjkiFA==}
 
-  pino@9.5.0:
-    resolution: {integrity: sha512-xSEmD4pLnV54t0NOUN16yCl7RIB1c5UUOse5HSyEXtBp+FgFQyPeDutc+Q2ZO7/22vImV7VfEjH/1zV2QuqvYw==}
-    hasBin: true
-
   pino@9.6.0:
     resolution: {integrity: sha512-i85pKRCt4qMjZ1+L7sy2Ag4t1atFcdbEt76+7iRJn1g2BvsnRMGu9p8pivl9fs63M2kF/A0OacFZhTub+m/qMg==}
     hasBin: true
@@ -3184,8 +3180,8 @@ packages:
   tinybench@2.9.0:
     resolution: {integrity: sha512-0+DUvqWMValLmha6lr4kD8iAMK1HzV0/aKnCtWb9v9641TnP/MFb7Pc2bxoxQjTXAErryXVgUOfv2YqNllqGeg==}
 
-  tinyexec@0.3.1:
-    resolution: {integrity: sha512-WiCJLEECkO18gwqIp6+hJg0//p23HXp4S+gGtAKu3mI2F2/sXC4FvHvXvB0zJVVaTPhx1/tOwdbRsa1sOBIKqQ==}
+  tinyexec@0.3.2:
+    resolution: {integrity: sha512-KQQR9yN7R5+OSwaK0XQoj22pwHoTlgYqmUscPYoknOoWCWfj/5/ABTMRi69FrKU5ffPVh5QcFikpWJI/P1ocHA==}
 
   tinyglobby@0.2.10:
     resolution: {integrity: sha512-Zc+8eJlFMvgatPZTl6A9L/yht8QqdmUNtURHaKZLmKBE12hNPSrqNkUp2cs3M/UKmNVVAMFQYSjYIVHDjW5zew==}
@@ -3846,7 +3842,7 @@ snapshots:
 
   '@fastify/deepmerge@1.3.0': {}
 
-  '@fastify/deepmerge@2.0.0': {}
+  '@fastify/deepmerge@2.0.1': {}
 
   '@fastify/error@4.0.0': {}
 
@@ -3892,7 +3888,7 @@ snapshots:
       '@fastify/send': 3.3.0
       content-disposition: 0.5.4
       fastify-plugin: 5.0.1
-      fastq: 1.17.1
+      fastq: 1.18.0
       glob: 11.0.0
 
   '@fastify/swagger@9.4.0':
@@ -4356,7 +4352,7 @@ snapshots:
       '@platformatic/service': 2.30.1
       '@platformatic/telemetry': 2.30.1
       '@platformatic/utils': 2.30.1
-      '@scalar/fastify-api-reference': 1.25.96
+      '@scalar/fastify-api-reference': 1.25.99
       ajv: 8.17.1
       commist: 3.2.0
       console-table-printer: 2.12.1
@@ -4387,7 +4383,7 @@ snapshots:
 
   '@platformatic/config@2.30.1':
     dependencies:
-      '@fastify/deepmerge': 2.0.0
+      '@fastify/deepmerge': 2.0.1
       '@fastify/error': 4.0.0
       '@platformatic/utils': 2.30.1
       abstract-logging: 2.0.1
@@ -4471,7 +4467,7 @@ snapshots:
       '@platformatic/basic': 2.30.1
       '@platformatic/config': 2.30.1
       '@platformatic/utils': 2.30.1
-      amaro: 0.2.0
+      amaro: 0.2.1
       iovalkey: 0.2.1
       msgpackr: 1.11.2
       semver: 7.6.3
@@ -4551,7 +4547,7 @@ snapshots:
       '@fastify/autoload': 6.0.3
       '@fastify/basic-auth': 6.0.2
       '@fastify/cors': 10.0.1
-      '@fastify/deepmerge': 2.0.0
+      '@fastify/deepmerge': 2.0.1
       '@fastify/error': 4.0.0
       '@fastify/static': 8.0.3
       '@fastify/swagger': 9.4.0
@@ -4566,7 +4562,7 @@ snapshots:
       '@platformatic/telemetry': 2.30.1
       '@platformatic/ts-compiler': 2.30.1
       '@platformatic/utils': 2.30.1
-      '@scalar/fastify-api-reference': 1.25.96
+      '@scalar/fastify-api-reference': 1.25.99
       '@types/ws': 8.5.13
       ajv: 8.17.1
       cli-progress: 3.12.0
@@ -4632,7 +4628,7 @@ snapshots:
 
   '@platformatic/utils@2.30.1':
     dependencies:
-      '@fastify/deepmerge': 2.0.0
+      '@fastify/deepmerge': 2.0.1
       '@fastify/error': 4.0.0
       '@watchable/unpromise': 1.0.2
       boring-name-generator: 1.0.3
@@ -4728,7 +4724,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.29.1':
     optional: true
 
-  '@scalar/fastify-api-reference@1.25.96':
+  '@scalar/fastify-api-reference@1.25.99':
     dependencies:
       '@scalar/types': 0.0.25
       fastify-plugin: 4.5.1
@@ -4977,7 +4973,7 @@ snapshots:
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
-  amaro@0.2.0: {}
+  amaro@0.2.1: {}
 
   ansi-regex@5.0.1: {}
 
@@ -5008,7 +5004,7 @@ snapshots:
   avvio@9.1.0:
     dependencies:
       '@fastify/error': 4.0.0
-      fastq: 1.17.1
+      fastq: 1.18.0
 
   balanced-match@1.0.2: {}
 
@@ -5202,7 +5198,7 @@ snapshots:
 
   component-emitter@1.3.1: {}
 
-  consola@3.3.0: {}
+  consola@3.3.3: {}
 
   console-table-printer@2.12.1:
     dependencies:
@@ -5336,7 +5332,7 @@ snapshots:
 
   es-main@1.3.0: {}
 
-  es-module-lexer@1.5.4: {}
+  es-module-lexer@1.6.0: {}
 
   es-object-atoms@1.0.0:
     dependencies:
@@ -5578,7 +5574,7 @@ snapshots:
       fast-json-stringify: 6.0.0
       find-my-way: 9.1.0
       light-my-request: 6.4.0
-      pino: 9.5.0
+      pino: 9.6.0
       process-warning: 4.0.0
       proxy-addr: 2.0.7
       rfdc: 1.4.1
@@ -5591,7 +5587,7 @@ snapshots:
       reusify: 1.0.4
       xtend: 4.0.2
 
-  fastq@1.17.1:
+  fastq@1.18.0:
     dependencies:
       reusify: 1.0.4
 
@@ -6271,20 +6267,6 @@ snapshots:
 
   pino-std-serializers@7.0.0: {}
 
-  pino@9.5.0:
-    dependencies:
-      atomic-sleep: 1.0.0
-      fast-redact: 3.5.0
-      on-exit-leak-free: 2.1.2
-      pino-abstract-transport: 2.0.0
-      pino-std-serializers: 7.0.0
-      process-warning: 4.0.0
-      quick-format-unescaped: 4.0.4
-      real-require: 0.2.0
-      safe-stable-stringify: 2.5.0
-      sonic-boom: 4.2.0
-      thread-stream: 3.1.0
-
   pino@9.6.0:
     dependencies:
       atomic-sleep: 1.0.0
@@ -6778,7 +6760,7 @@ snapshots:
 
   tinybench@2.9.0: {}
 
-  tinyexec@0.3.1: {}
+  tinyexec@0.3.2: {}
 
   tinyglobby@0.2.10:
     dependencies:
@@ -6816,7 +6798,7 @@ snapshots:
       bundle-require: 5.1.0(esbuild@0.24.2)
       cac: 6.7.14
       chokidar: 4.0.3
-      consola: 3.3.0
+      consola: 3.3.3
       debug: 4.4.0
       esbuild: 0.24.2
       joycon: 3.1.1
@@ -6826,7 +6808,7 @@ snapshots:
       rollup: 4.29.1
       source-map: 0.8.0-beta.0
       sucrase: 3.35.0
-      tinyexec: 0.3.1
+      tinyexec: 0.3.2
       tinyglobby: 0.2.10
       tree-kill: 1.2.2
     optionalDependencies:
@@ -6919,7 +6901,7 @@ snapshots:
     dependencies:
       cac: 6.7.14
       debug: 4.4.0
-      es-module-lexer: 1.5.4
+      es-module-lexer: 1.6.0
       pathe: 1.1.2
       vite: 5.4.11(@types/node@22.10.2)
     transitivePeerDependencies:
@@ -6958,7 +6940,7 @@ snapshots:
       pathe: 1.1.2
       std-env: 3.8.0
       tinybench: 2.9.0
-      tinyexec: 0.3.1
+      tinyexec: 0.3.2
       tinypool: 1.0.2
       tinyrainbow: 1.2.0
       vite: 5.4.11(@types/node@22.10.2)
