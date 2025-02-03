@@ -12,7 +12,7 @@
 		"typescript": "5.7.3"
 	},
 	"dependencies": {
-		"@platformatic/composer": "2.43.0"
+		"@platformatic/composer": "2.44.0"
 	},
 	"engines": {
 		"node": "^18.8.0 || >=20.6.0"
