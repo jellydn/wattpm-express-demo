@@ -14,7 +14,7 @@
 		"typecheck": "tsc --noEmit"
 	},
 	"dependencies": {
-		"@platformatic/node": "2.44.1",
+		"@platformatic/node": "2.44.2",
 		"body-parser": "1.20.3",
 		"cors": "2.8.5",
 		"express": "5.0.1",
