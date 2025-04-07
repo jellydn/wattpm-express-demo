@@ -9,8 +9,8 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
-		"@platformatic/next": "2.57.0",
-		"next": "14.2.26",
+		"@platformatic/next": "2.58.0",
+		"next": "14.2.27",
 		"react": "18.3.1",
 		"react-dom": "18.3.1"
 	},
