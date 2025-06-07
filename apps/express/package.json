@@ -23,8 +23,8 @@
 		"pino": "9.7.0"
 	},
 	"devDependencies": {
-		"@types/cors": "2.8.18",
-		"@types/express": "5.0.2",
+		"@types/cors": "2.8.19",
+		"@types/express": "5.0.3",
 		"@types/jsend": "1.0.32",
 		"@types/supertest": "6.0.3",
 		"@vitest/coverage-v8": "2.1.9",
