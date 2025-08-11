@@ -26,8 +26,8 @@ importers:
         specifier: 0.20.1
         version: 0.20.1
       fastify:
-        specifier: 5.4.0
-        version: 5.4.0
+        specifier: 5.5.0
+        version: 5.5.0
       typescript:
         specifier: 5.9.2
         version: 5.9.2
@@ -1987,8 +1987,8 @@ packages:
   fastify-plugin@5.0.1:
     resolution: {integrity: sha512-HCxs+YnRaWzCl+cWRYFnHmeRFyR5GVnJTAaCJQiYzQSDwK9MgJdyAsuL3nh0EWRCYMgQ5MeziymvmAhUHYHDUQ==}
 
-  fastify@5.4.0:
-    resolution: {integrity: sha512-I4dVlUe+WNQAhKSyv15w+dwUh2EPiEl4X2lGYMmNSgF83WzTMAPKGdWEv5tPsCQOb+SOZwz8Vlta2vF+OeDgRw==}
+  fastify@5.5.0:
+    resolution: {integrity: sha512-ZWSWlzj3K/DcULCnCjEiC2zn2FBPdlZsSA/pnPa/dbUfLvxkD/Nqmb0XXMXLrWkeM4uQPUvjdJpwtXmTfriXqw==}
 
   fastparallel@2.4.1:
     resolution: {integrity: sha512-qUmhxPgNHmvRjZKBFUNI0oZuuH9OlSIOXmJ98lhKPxMZZ7zS/Fi0wRHOihDSz0R1YiIOjxzOY4bq65YTcdBi2Q==}
@@ -4357,7 +4357,7 @@ snapshots:
       es-main: 1.4.0
       execa: 9.6.0
       fast-deep-equal: 3.1.3
-      fastify: 5.4.0
+      fastify: 5.5.0
       fastify-plugin: 5.0.1
       graphql: 16.11.0
       help-me: 5.0.0
@@ -4420,7 +4420,7 @@ snapshots:
       '@platformatic/utils': 2.74.1
       change-case-all: 2.1.0
       execa: 9.6.0
-      fastify: 5.4.0
+      fastify: 5.5.0
       glob: 11.0.3
       pino: 9.8.0
       undici: 7.13.0
@@ -4428,7 +4428,7 @@ snapshots:
   '@platformatic/graphql-composer@0.10.0':
     dependencies:
       abstract-logger: 0.2.5
-      fastify: 5.4.0
+      fastify: 5.5.0
       graphql: 16.11.0
       mercurius: 15.1.0(graphql@16.11.0)
       metaline: 1.1.0
@@ -4519,7 +4519,7 @@ snapshots:
       dotenv-tool: 0.1.1
       es-main: 1.4.0
       fastest-levenshtein: 1.0.16
-      fastify: 5.4.0
+      fastify: 5.5.0
       graphql: 16.11.0
       help-me: 5.0.0
       minimist: 1.2.8
@@ -4573,8 +4573,8 @@ snapshots:
       es-main: 1.4.0
       execa: 9.6.0
       fast-json-patch: 3.1.1
-      fastify: 5.4.0
-      fastify-metrics: 12.1.0(fastify@5.4.0)
+      fastify: 5.5.0
+      fastify-metrics: 12.1.0(fastify@5.5.0)
       fastify-plugin: 5.0.1
       graphql: 16.11.0
       help-me: 5.0.0
@@ -5621,9 +5621,9 @@ snapshots:
 
   fastest-levenshtein@1.0.16: {}
 
-  fastify-metrics@12.1.0(fastify@5.4.0):
+  fastify-metrics@12.1.0(fastify@5.5.0):
     dependencies:
-      fastify: 5.4.0
+      fastify: 5.5.0
       fastify-plugin: 5.0.1
       prom-client: 15.1.3
 
@@ -5631,7 +5631,7 @@ snapshots:
 
   fastify-plugin@5.0.1: {}
 
-  fastify@5.4.0:
+  fastify@5.5.0:
     dependencies:
       '@fastify/ajv-compiler': 4.0.2
       '@fastify/error': 4.2.0
