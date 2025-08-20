@@ -63,8 +63,8 @@ importers:
         specifier: 5.0.3
         version: 5.0.3
       '@types/jsend':
-        specifier: 1.0.32
-        version: 1.0.32
+        specifier: 1.0.33
+        version: 1.0.33
       '@types/supertest':
         specifier: 6.0.3
         version: 6.0.3
@@ -1265,8 +1265,8 @@ packages:
   '@types/istanbul-lib-coverage@2.0.6':
     resolution: {integrity: sha512-2QF/t/auWm0lsy8XtKVPG19v3sSOQlJe/YHZgfjb/KBBHOGSV+J2q/S671rcq9uTBrLAXmZpqJiaQbMT+zNU1w==}
 
-  '@types/jsend@1.0.32':
-    resolution: {integrity: sha512-eJTZqYTH5FBgOfZbPdn34QI/E0vMkQVy348pF6W1hCpbQZ58LCxZkYK8OZ9/0gOHYHVwfd3WKMwQWSydFlXq2w==}
+  '@types/jsend@1.0.33':
+    resolution: {integrity: sha512-GhkeHOTEv83l6W9yaVGgtSooN3ps3/0rSiq8XfvSIUNvCC5K0GnzeQOYI32Xc6WiaTegYoxnixRDgUqDHQ0WPA==}
 
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
@@ -4836,7 +4836,7 @@ snapshots:
 
   '@types/istanbul-lib-coverage@2.0.6': {}
 
-  '@types/jsend@1.0.32': {}
+  '@types/jsend@1.0.33': {}
 
   '@types/json-schema@7.0.15': {}
 
