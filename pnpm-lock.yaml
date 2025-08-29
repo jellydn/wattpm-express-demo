@@ -23,8 +23,8 @@ importers:
         version: 2.74.3
     devDependencies:
       borp:
-        specifier: 0.20.1
-        version: 0.20.1
+        specifier: 0.20.2
+        version: 0.20.2
       fastify:
         specifier: 5.5.0
         version: 5.5.0
@@ -1499,8 +1499,8 @@ packages:
     resolution: {integrity: sha512-1wEo1pNahY9js7Vkp1RQa/VWdWrXYJnVAmsHV3Pw/0YzspjABLw7dcekjukOMTIYWr8ir/aG0GX1eoEkYhpnUg==}
     hasBin: true
 
-  borp@0.20.1:
-    resolution: {integrity: sha512-+1juusmbzAetePd0AIGbj+wut27bmzLFa2BhP8J9VGNcV7sx7bs4pDR2DhOU2oDZestWZpUzjfgIKYEI7LDW/A==}
+  borp@0.20.2:
+    resolution: {integrity: sha512-WJl/vYU6KoD0SyppDWPCdgrrTt2e+hCqTk5443fOUD92cbHLDLIcVRVRh8FIP0uhJjcZQ82Ky0XhB7Kyh32d/w==}
     hasBin: true
 
   brace-expansion@2.0.2:
@@ -5110,7 +5110,7 @@ snapshots:
       commander: 6.2.1
       lodash: 4.17.21
 
-  borp@0.20.1:
+  borp@0.20.2:
     dependencies:
       '@reporters/github': 1.9.1
       c8: 10.1.3
