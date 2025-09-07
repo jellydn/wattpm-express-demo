@@ -14,13 +14,13 @@
 		"typecheck": "tsc --noEmit"
 	},
 	"dependencies": {
-		"@platformatic/node": "2.74.3",
+		"@platformatic/node": "2.75.0",
 		"body-parser": "1.20.3",
 		"cors": "2.8.5",
 		"express": "5.1.0",
 		"helmet": "8.1.0",
 		"jsend": "1.1.0",
-		"pino": "9.9.0"
+		"pino": "9.9.4"
 	},
 	"devDependencies": {
 		"@types/cors": "2.8.19",
