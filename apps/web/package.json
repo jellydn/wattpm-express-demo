@@ -9,14 +9,14 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
-		"@platformatic/next": "2.74.3",
+		"@platformatic/next": "2.75.0",
 		"next": "14.2.32",
 		"react": "18.3.1",
 		"react-dom": "18.3.1"
 	},
 	"devDependencies": {
 		"typescript": "5.9.2",
-		"@types/node": "22.18.0",
+		"@types/node": "22.18.1",
 		"@types/react": "18.3.24",
 		"@types/react-dom": "18.3.7"
 	}
