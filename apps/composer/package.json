@@ -7,12 +7,12 @@
 		"build": "platformatic compile"
 	},
 	"devDependencies": {
-		"fastify": "5.6.0",
-		"borp": "0.20.2",
-		"typescript": "5.9.2"
+		"fastify": "5.6.1",
+		"borp": "0.21.0",
+		"typescript": "5.9.3"
 	},
 	"dependencies": {
-		"@platformatic/composer": "2.75.0"
+		"@platformatic/composer": "2.75.2"
 	},
 	"engines": {
 		"node": "^18.8.0 || >=20.6.0"
