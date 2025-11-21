@@ -27,13 +27,13 @@
 		"@types/express": "5.0.5",
 		"@types/jsend": "1.0.33",
 		"@types/supertest": "6.0.3",
-		"@vitest/coverage-v8": "2.1.9",
-		"@vitest/ui": "2.1.9",
+		"@vitest/coverage-v8": "4.0.13",
+		"@vitest/ui": "4.0.13",
 		"supertest": "7.1.4",
 		"tsup": "8.5.1",
 		"tsx": "4.20.6",
 		"typescript": "5.9.3",
-		"vitest": "2.1.9"
+		"vitest": "4.0.13"
 	},
 	"tsup": {
 		"entry": ["app/index.ts"],
