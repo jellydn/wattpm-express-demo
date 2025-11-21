@@ -7,7 +7,7 @@
 		"build": "platformatic compile"
 	},
 	"devDependencies": {
-		"fastify": "5.6.1",
+		"fastify": "5.6.2",
 		"borp": "0.21.0",
 		"typescript": "5.9.3"
 	},
